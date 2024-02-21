@@ -1,0 +1,55 @@
+
+* {
+    /* border: 1px solid black; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgb(226, 248, 248);
+}
+
+.title {
+    margin: 20px;
+    align-items: center;
+}
+
+.title h2 {
+    height: 60px;
+    padding: 10px;
+    margin: 10px;    
+    font-size: 28px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.icon {
+    align-items: center;
+    margin-left: 150px;
+}
+
+.icon button {
+    height: 30px;
+    margin-right: 5px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+}
+
+.body_discrpt {
+    margin: 30px 20px;
+}
+
+.body_discrpt h2 {
+    padding: 20px 0;
+}
+
+.body_discrpt p {
+    display: flex;
+
+}
