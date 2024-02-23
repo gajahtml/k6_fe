@@ -9,8 +9,16 @@ button {
     border-radius: 5px;
 }
 
+#bt3 {
+    background-color: green;
+}
+
+#bt3:hover {
+    background-color: mediumblue;
+}
+
 button:hover {
-    background-color:darkgreen;
+    background-color:green;
     color: white;
     cursor:help;
 }
