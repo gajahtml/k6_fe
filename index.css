@@ -67,7 +67,7 @@ section > h1 {
 
 section > div {
     width: 80%;
-    display: flex;
+    display: flex;    
     justify-content: center;
     align-items: center;
     border: 1px dotted black;

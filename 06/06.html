@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../index.css" />
     <link rel="stylesheet" href="../04/04.css" />
-    <script src="./05.js"></script>
+    <script src="./06.js"></script>
 
     <title>K-디지털6기</title>
   </head>
@@ -14,19 +14,29 @@
     <main>
       <header>
         <h1>K-Digital 6기 자바스크립트</h1>
+
         <div><a href="../index.html">Home</a></div>
       </header>
 
       <section>
         <div>
-          <img src="./img/1.png" alt="" />
-          <img src="./img/2.png" alt="" />
-          <img src="./img/3.png" alt="" />
+          <h1>자바스크립트 주사위</h1>
         </div>
         <div>
-          <button onclick="handleClick()">주사위를 던져주세요</button>
+          <img id="i1" src="./img/1.png" alt="" />
+          <img id="i2" src="./img/2.png" alt="" />
+        </div>
+
+        <div>
+          <button onclick="handleClick(1)">1 선택</button>
+          <button onclick="handleClick(2)">2 선택</button>
+          <button onclick="handleClick(3)">3 선택</button>
+          <button onclick="handleClick(4)">4 선택</button>
+          <button onclick="handleClick(5)">5 선택</button>
+          <button onclick="handleClick(6)">6 선택</button>
           <!-- <button id="bt1">주사위를 던져주세요</button> -->
         </div>
+        <div id="result"></div>
       </section>
     </main>
   </body>
