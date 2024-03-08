@@ -1,0 +1,50 @@
+#title {
+  background-color: aquamarine;
+}
+
+#body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 20px;
+  padding-bottom: 30px;
+}
+
+span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  /* background-color: blueviolet; */
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sp0 {
+  background-color: rgb(212, 212, 19);
+  color: white;
+}
+.sp1 {
+  background-color: blue;
+  color: white;
+}
+.sp2 {
+  background-color: red;
+  color: white;
+}
+.sp3 {
+  background-color: gray;
+  color: white;
+}
+.sp4 {
+  background-color: green;
+  color: white;
+}
+
+button {
+  margin-top: 80px;
+}
